@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+           
+            .font-col
+            {
+                 background-color: #333333;
+                 color: white; 
+                 width: 500px;
+                 height: 70px;
+            }
+
+            .row
+            {
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 500px;
+                height: 200px;
+            }
+
+            #main {
+                width: 500px;
+                height: 350px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+            }
+ 
+            .font-row1
+            {
+                height: 200px;
+                width:80px;
+                background-color: #333333;
+                color: white;
+                 
+            }
+
+            .font-row2
+            {
+                height: 200px;
+                width:415px;
+                background-color: #333333;
+                color: white;
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+                <div class="font-col"><div style="padding: 10px;">One</div></div>
+                <div class="row">
+                    <div class="font-row1"> <div style="padding: 10px;">Two</div></div>
+                    <div class="font-row2"> <div style="padding: 10px;">Three</div></div>
+                </div>
+                <div class="font-col"><div style="padding: 10px;">Four</div></div>
+        </div>
+    </div> 
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            
+            .font-col
+            {
+                 background-color: #333333;
+                 color: white; 
+                 width: 600px;
+                 height: 70px;
+            }
+
+            .row
+            {
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 600px;
+                height: 150px;
+            }
+
+            #main {
+                width: 600px;
+                height: 230px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+            }
+ 
+            .font-row
+            {
+                height: 150px;
+                width:295px;
+                background-color: #333333;
+                color: white;
+                 
+            }
+            
+            .font-column
+            {
+                height: 150px;
+                width:295px;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;   
+            }
+
+            .font-col-div
+            {
+                 background-color: #333333;
+                 color: white; 
+                 width: 295px;
+                 height: 70px;
+            }
+
+            .font-col-row
+            {
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 295px;
+                 height: 70px;
+            }
+            .font-col-div-row
+            {
+                 background-color: #333333;
+                 color: white; 
+                 width: 140px;
+                 height: 70px;
+            }
+            
+        </style>
+    </head>
+    <body>
+            <div id="main">
+                    <div class="font-col"><div style="padding: 10px;">One</div></div>
+                    <div class="row">
+                        <div class="font-row"> <div style="padding: 10px;">Two</div></div>
+                        <div class="font-column">  
+                            <div class="font-col-div"> <div style="padding: 10px;">Three</div></div>
+                            <div class="font-col-row"> 
+                                <div class="font-col-div-row"><div style="padding: 10px;">Four</div></div>
+                                <div class="font-col-div-row"><div style="padding: 10px;">Five</div></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </body>
+</html>

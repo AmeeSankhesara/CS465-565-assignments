@@ -1,0 +1,78 @@
+<!-- CSS grid layout -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        .grid-display
+            {
+                display: grid;
+                grid-template-columns: repeat(10, 50px);
+                grid-template-rows: repeat(8, 50px);
+                grid-gap: 5px; 
+            }
+
+            .grid-One
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 7;
+               
+            }
+
+            .grid-two
+            {
+                grid-column-start: 4;
+                grid-column-end: 10;
+                grid-row-start: 1;
+                grid-row-end: 5;
+                
+            }
+         
+            .grid-Three
+            {
+                grid-column-start: 4;
+                grid-column-end: 10;
+                grid-row-start: 5;
+                grid-row-end: 6;
+             
+            }
+
+            .grid-Four
+            {
+                grid-column-start: 4;
+                grid-column-end: 10;
+                grid-row-start: 6;
+                grid-row-end: 7;
+                
+            }
+
+            .grid-Five
+            {
+                grid-column-start: 1;
+                grid-column-end: 10;
+                grid-row-start: 7;
+                grid-row-end: 8;
+            }
+
+            .background
+            {
+                background-color: #333333;
+                color:white;
+                padding: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid-display">
+                <span class="grid-One background">One</span>
+                <span class="grid-two background">Two</span>
+                <span class="grid-Three background">Three</span>
+                <span class="grid-Four background">Four</span>
+                <span class="grid-Five background">Five</span>
+        </div>
+      
+       
+    </body>
+</html>

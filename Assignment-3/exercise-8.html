@@ -1,0 +1,111 @@
+<!-- CSS grid layout -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+        .grid-display
+            {
+                display: grid;
+                grid-template-columns: repeat(9, 80px);
+                grid-template-rows: repeat(15, 35px);
+                grid-gap: 5px; 
+            }
+
+            .grid-One
+            {
+                grid-column-start: 1;
+                grid-column-end: 9;
+                grid-row-start: 1;
+                grid-row-end: 2;
+               
+            }
+
+            .grid-two
+            {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 5;
+                
+            }
+         
+            .grid-Three
+            {
+                grid-column-start: 3;
+                grid-column-end: 9;
+                grid-row-start: 2;
+                grid-row-end: 5;
+             
+            }
+
+            .grid-Four
+            {
+                grid-column-start: 1;
+                grid-column-end: 9;
+                grid-row-start: 5;
+                grid-row-end: 6;
+                
+            }
+
+             .grid-Five
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                
+            } 
+
+            .grid-six
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 8;
+                grid-row-end: 13;
+                
+            } 
+
+            .grid-seven
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 13;
+                grid-row-end: 14;
+                
+            } 
+            .grid-Eight
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 14;
+                grid-row-end: 15;
+                
+            } 
+
+            .background
+            {
+                background-color: #333333;
+                color:white;
+                padding: 8px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="grid-display">
+                <span class="grid-One background">Header</span>
+                <span class="grid-two background">Aside</span>
+                <span class="grid-Three background">Article<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sint suscipit totam veritatis est quam molestiae numquam eius quidem,eum alias aut optio id doloremque, 
+                    fuga nesciunt tenetur dolore hic provident!</p></span>
+                <span class="grid-Four background">Footer</span>
+                <span class="grid-Five background">Header</span>
+                <span class="grid-six background">Article<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sint suscipit totam veritatis est quam molestiae numquam eius quidem,eum alias aut optio id doloremque, 
+                        fuga nesciunt tenetur dolore hic provident!</p></span>
+                        <span class="grid-seven background">Aside</span>
+                        <span class="grid-Eight background">Footer</span>
+        </div>
+       
+    </body>
+</html>
