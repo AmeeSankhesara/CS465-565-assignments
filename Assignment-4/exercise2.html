@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Reverse Number</p>    
+     <script > 
+      function reversedNum(num) {
+          var digit,reverse=0;
+          while(num > 0) {
+             digit = num % 10;
+             reverse = reverse * 10 + digit;
+             num=parseInt(num/10);
+            }
+        return reverse;              
+        }
+        console.log(reversedNum(231756))       
+    </script>
+</body>
+</html> 

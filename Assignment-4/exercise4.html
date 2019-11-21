@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body onresize="getSize()">
+ <div id="width"></div>
+<div  id="height"></div>
+<script>
+function getSize() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    document.getElementById("width").innerHTML =  'Current Width of Window = '+w; 
+    document.getElementById("height").innerHTML =  'Current Height of Window = '+h;
+}
+</script>
+</body>
+</html> 
