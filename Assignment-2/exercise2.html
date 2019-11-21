@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            .gallery
+            {
+                display: grid;
+                grid-template-columns: repeat(9, 100px);
+                grid-template-rows: repeat(4, 150px);
+                grid-gap: 5px; 
+            }
+
+            .gallery__item--1
+            {
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 5;
+             }
+            
+            .gallery__item--2
+            {
+                grid-column-start: 5;
+                grid-column-end: 7;
+                grid-row-start: 1;
+                grid-row-end: 3;
+             }
+
+            .gallery__item--3 {
+                grid-column-start: 7;
+                grid-column-end: 8;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+
+            .gallery__item--4 {
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .gallery__item--5 {
+                grid-column-start: 6;
+                grid-column-end: 7;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .gallery__item--7 {
+                grid-column-start: 7;
+                grid-column-end: 9;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+
+            .gallery__item--8 {
+                grid-column-start: 1;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+
+            figure
+            {
+                margin-top: 0;
+                margin-left:0;
+                margin-right:0;
+                margin-bottom: 0;
+            }
+
+            h1
+            {
+                color: gray;
+                font-size: 40pt;
+                font-family: Calibri;
+            }
+
+            .center{
+                width: 825px;
+                margin: 0 auto;
+            }
+
+            .margin
+            {
+                margin-top: 3%;
+             }
+
+             footer
+             {
+                border-top: 2px solid gray;
+                font-family: Calibri
+             }
+            </style>
+    </head>
+<body>
+            <div class="gallery center margin"> 
+                    <figure class=" gallery__item--1">
+                                <img src="http://placekitten.com/408/287" class="gallery__img" alt="Image 1">
+                    </figure>   
+        
+                    <figure class=" gallery__item--2">
+                            <img src="http://placekitten.com/200/287" class="gallery__img"  alt="Image 2">
+                    </figure>
+                    <figure class=" gallery__item--3">
+                            <img src="http://placekitten.com/200/140" class="gallery__img" alt="Image 3">
+                            <img src="http://placekitten.com/200/139" class="gallery__img" alt="Image 4" style="margin-top: 5px;">
+                    </figure>
+        
+                     <figure class=" gallery__item--4">
+                            <img src="http://placekitten.com/96/139" class="gallery__img" alt="Image 4">
+                            <img src="http://placekitten.com/200/138" class="gallery__img" alt="Image 6" style="margin-top: 5px;">
+                    </figure> 
+                    <figure class=" gallery__item--5">
+                            <img src="http://placekitten.com/96/140" class="gallery__img" alt="Image 5">
+                    </figure>
+                   
+                    <figure class=" gallery__item--7">
+                            <img src="http://placekitten.com/200/286" class="gallery__img" alt="Image 7">
+                    </figure>   
+        
+                   <figure class=" gallery__item--8">
+                            <div>
+                                <header>
+                                    <h1>
+                                        placekitten
+                                    </h1>
+                                </header>
+                                 <p style="font-family: Calibri"> 
+                                     <strong>
+                                         A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code.
+                                        </strong> 
+                                        Just put your image size (width & height) after our URL and you'll get a placeholder.
+                                </p>
+                                
+                            </div>
+                             <div style="background-color: #43464b;color: white;" >
+                                    <p style="font-family: Calibri;padding-left: 4%;padding-top: 2%;padding-bottom: 2%">
+                                        Like this : <a style="color: #B7FFBF" href="http://placekitten.com/200/300">http://placekitten.com/200/300</a>
+                                        <br>
+                                        or : <a style="color: #B7FFBF" href="http://placekitten.com/g/200/300">http://placekitten.com/g/200/300</a>
+                                    </p>
+                            </div>
+                    </figure>   
+                    
+                </div>
+                <footer class="center">
+                        Delivered by <a style="color: green" href="http://mark.james.name/">Mark James</a> Photographers (<a style="color: green" href="http://placekitten.com/attribution.html">Image attribution</a>) - <a style="color: green" href="https://placehold.it/">Inspired by placehold.it</a>
+                </footer>
+</body>
+</html>

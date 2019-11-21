@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+        .font
+        {
+          font-family: Helvetica;
+          font-size: 20px;
+        }
+        html {
+            background: linear-gradient( to right, rgba(10,180,10,0.6),rgba(250,250,20,1.0));
+        }
+        .buttonStyle:hover {
+          background-color: darkgreen;
+        }
+        .buttonStyle:focus
+        {
+          background-color: purple;
+        }
+        .buttonStyle
+        {
+          background-color: blue;
+          color: white;
+          height: 30px;
+          width: 80px;
+          font-size: 15px;
+          font-family: Helvetica;
+        }
+        form
+        {
+          width:30%;
+          border:1px solid #000; 
+          text-align: center;
+        }
+
+        div
+        {
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }  
+       
+        .inputStyle
+        {
+          width: 80%;
+          height: 30px;
+          font-size: 15px;
+          font-family: Helvetica;
+        }
+
+        ::placeholder
+        {
+          padding-left: 2%;
+        }
+  </style>
+  <body class="font">
+      <div>
+            <form>
+                <p style="text-align: center;color: #002366">CONTACT US</p>
+                <p>
+                    <Input class="inputStyle" type="text" placeholder="Name"> 
+                </p>
+                <p>
+                    <Input class="inputStyle" type="text" placeholder="Email">
+                </p>
+                <p>
+                    <textarea style="width: 80%;height: 200px;"></textarea> 
+                </p>
+                 <p>
+                   <input type='button' class='buttonStyle' value='Submit'>
+                   <input type='button' class='buttonStyle' value='Reset'>   
+                 </p>
+              </form> 
+            </div>
+  </body>
+</html>
