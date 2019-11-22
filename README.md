@@ -63,8 +63,10 @@ Full Stack Web Development - Fall 2019
     Exercise5 : I have created button and whenever user clicks on button background color will be changed randomly. For that I have           written Javascript program to generate random hexcode to change background color.
     
   # Assignment 5 - Node and Express
-  
-    Used bootstrap form created in privous assignment for this assignment. I have assigned action="/submit" and method="POST" to form         element which will send the data of name, email and comment of from to server when user will submit the form. In your app.js, I have       created an Express server and handle the route indicated in the form above and print the name, email, and comment in theappropriate       page. I have used body-parser middleware for parsing incoming request bodies.
+    Used bootstrap form created in privous assignment for this assignment. I have assigned action="/submit" and method="POST" to form 
+    element which will send the data of name, email and comment of from to server when user will submit the form. In your app.js, I have
+    created an Express server and handle the route indicated in the form above and print the name, email, and comment in the appropriate
+    page. I have used body-parser middleware for parsing incoming request bodies.
     
   # Assignment 6 - Node, Express, React, Angular, TypeScript, Vue
   
