@@ -48,7 +48,7 @@ Full Stack Web Development - Fall 2019
     
  # Assignment - 4 - JavaScript
  
-    Exercise1 : I have Written a program using JavaScript that uses console.log to print all the numbers from 1 to 100, with some exceptions. For numbers divisible by 3, print “fizz” and for numbers divisible by 5 (but not 3), print “buzz. For numbers divisible by 3 and 5, print “fizzbuzz.”
+    Exercise1 : I have Written a program using JavaScript that uses console.log to print all the numbers from 1 to 100, with some             exceptions. For numbers divisible by 3, print “fizz” and for numbers divisible by 5 (but not 3), print “buzz. For numbers divisible by     3 and 5, print “fizzbuzz.”
     
     Exercise2 : I have written a program to reverse a number using JavaScript. For example for input = 231756 output will be 657132.
     
@@ -61,3 +61,16 @@ Full Stack Web Development - Fall 2019
     Exercise4 : I have written JavaScript program to output current width and height of window whenever it is resized. To display output I     have used two divs.
     
     Exercise5 : I have created button and whenever user clicks on button background color will be changed randomly. For that I have           written Javascript program to generate random hexcode to change background color.
+    
+  # Assignment 5 - Node and Express
+  
+    Used bootstrap form created in privous assignment for this assignment. I have assigned action="/submit" and method="POST" to form         element which will send the data of name, email and comment of from to server when user will submit the form. In your app.js, I have       created an Express server and handle the route indicated in the form above and print the name, email, and comment in theappropriate       page. I have used body-parser middleware for parsing incoming request bodies.
+    
+  # Assignment 6 - Node, Express, React, Angular, TypeScript, Vue
+  
+    Completed below tutorials : 
+    1. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html
+    2. Create Your First Angular App - Codelabs:https://codelab.fun/angular/create-first-app/intro
+    3. Intro to TypeScript - Codelabs:https://angular-presentation.firebaseapp.com/angular/typescript/intro
+    
+  
