@@ -71,8 +71,16 @@ Full Stack Web Development - Fall 2019
   # Assignment 6 - Node, Express, React, Angular, TypeScript, Vue
   
     Completed below tutorials : 
-    1. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html
+    1. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html 
+        
+    
     2. Create Your First Angular App - Codelabs:https://codelab.fun/angular/create-first-app/intro
+       Modified Files : 
+       1. my-angular-app/src/index.html
+       2. my-angular-app/src/main.ts
+       3. my-angular-app/src/app/app.module.ts
+       4. my-angular-app/src/app/app.component.ts
+    
     3. Intro to TypeScript - Codelabs:https://angular-presentation.firebaseapp.com/angular/typescript/intro
     
   
