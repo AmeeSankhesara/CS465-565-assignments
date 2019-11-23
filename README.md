@@ -71,15 +71,14 @@ Full Stack Web Development - Fall 2019
   # Assignment 6 - Node, Express, React, Angular, TypeScript, Vue
   
     Completed below tutorials : 
+
+    1. Create Your First Angular App - Codelabs:https://codelab.fun/angular/create-first-app/intro
     
-    1. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html 
-        
-    2. Create Your First Angular App - Codelabs:https://codelab.fun/angular/create-first-app/intro
        Steps to create my-angular-app :
        1. Installed the Angular CLI npm install -g @angular/cli
        2. Created my angular app using command ng new my-angular-app
        3. Run Angular application by navigating to the new folder and typing ng serve to start the web server and open the application in 
-       a browser: 
+       a browser. Run below commands in terminal.
            cd my-angular-app 
            ng serve
        
@@ -88,8 +87,30 @@ Full Stack Web Development - Fall 2019
        2. my-angular-app/src/main.ts
        3. my-angular-app/src/app/app.module.ts
        4. my-angular-app/src/app/app.component.ts
+       
+    2. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html 
+       
+       Steps to create React app :
+       1. Make sure you have a recent version of Node.js installed.
+       2. Created react app using this command : npx create-react-app my-app
+       3. run npm start in the project folder and open http://localhost:3000 in the browser, to see an empty tic-tac-toe field.
+       
+       Modified files :
+       1. my-app/src/index.js 
+       2. my-app/src/index.css  
     
     3. Mini Workshop 1 - Build a Simple Pet Fetching Web Application - Vue
        Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html
+       
+       Modified files :
+       1. vue-template/src/App.vue
+       2. vue-template/package.json
+       3. vue-template/public/index.html
+       4. vue-template/src/main.js
+       5. vue-template/src/components/Dog.vue
+       6. vue-template/src/plugins/veutify.js
+       
+      
+       
     
   
