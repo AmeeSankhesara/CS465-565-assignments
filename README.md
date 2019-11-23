@@ -75,11 +75,15 @@ Full Stack Web Development - Fall 2019
     1. Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html 
         
     2. Create Your First Angular App - Codelabs:https://codelab.fun/angular/create-first-app/intro
+       1. Created my angular app using command ng new my-angular-app
+       2. Run Angular application by navigating to the new folder and typing ng serve to start the web server and open the application in 
+       a browser: cd my-angular-app ng serve
        Modified Files : 
        1. my-angular-app/src/index.html
        2. my-angular-app/src/main.ts
        3. my-angular-app/src/app/app.module.ts
        4. my-angular-app/src/app/app.component.ts
+       Installed the Angular CLI npm install -g @angular/cli
     
     3. Mini Workshop 1 - Build a Simple Pet Fetching Web Application - Vue
        Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html
