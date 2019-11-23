@@ -64,9 +64,13 @@ Full Stack Web Development - Fall 2019
     
   # Assignment 5 - Node and Express
     Used bootstrap form created in privous assignment for this assignment. I have assigned action="/submit" and method="POST" to form 
-    element which will send the data of name, email and comment of from to server when user will submit the form. In your app.js, I have
-    created an Express server and handle the route indicated in the form above and print the name, email, and comment in the appropriate
-    page. I have used body-parser middleware for parsing incoming request bodies.
+    element which will send the data of name, email and comment of from to server when user will submit the form. 
+    In app.js, I have created an Express server and handle the route indicated in the form above and print the name, email, and comment in 
+    the appropriate page. I have used body-parser middleware for parsing incoming request bodies.
+    To start express server navigate to folder where app.js is located and run node app.js. It will start express server. For this 
+    assignment run below command to start express server. 
+    cd Assignment-5
+    node app.js
     
   # Assignment 6 - Node, Express, React, Angular, TypeScript, Vue
   
@@ -77,8 +81,8 @@ Full Stack Web Development - Fall 2019
        Steps to create my-angular-app :
        1. Installed the Angular CLI npm install -g @angular/cli
        2. Created my angular app using command ng new my-angular-app
-       3. Run Angular application by navigating to the new folder and typing ng serve to start the web server and open the application in 
-       a browser. Run below commands in terminal.
+       3. Run Angular application by navigating to the application folder and typing ng serve to start the web server and open the 
+          application in a browser. Run below commands in terminal.
            cd my-angular-app 
            ng serve
        
@@ -93,7 +97,10 @@ Full Stack Web Development - Fall 2019
        Steps to create React app :
        1. Make sure you have a recent version of Node.js installed.
        2. Created react app using this command : npx create-react-app my-app
-       3. run npm start in the project folder and open http://localhost:3000 in the browser, to see an empty tic-tac-toe field.
+       3. run npm start in the project folder and open http://localhost:3000 in the browser, to see tic-tac-toe.
+          Run below command in terminal.
+          cd my-app
+          npm start
        
        Modified files :
        1. my-app/src/index.js 
