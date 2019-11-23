@@ -48,19 +48,24 @@ Full Stack Web Development - Fall 2019
     
  # Assignment - 4 - JavaScript
  
-    Exercise1 : I have Written a program using JavaScript that uses console.log to print all the numbers from 1 to 100, with some             exceptions. For numbers divisible by 3, print “fizz” and for numbers divisible by 5 (but not 3), print “buzz. For numbers divisible by     3 and 5, print “fizzbuzz.”
+    Exercise1 : I have Written a program using JavaScript that uses console.log to print all the numbers from 1 to 100, with some        
+    exceptions. For numbers divisible by 3, print “fizz” and for numbers divisible by 5 (but not 3), print “buzz. For numbers divisible by 
+    3 and 5, print “fizzbuzz.”
     
     Exercise2 : I have written a program to reverse a number using JavaScript. For example for input = 231756 output will be 657132.
     
-    Exercise3 : I have written JavaScript program for Assignment-3's Bootstrap form that Whenever the user submits the form, output the       data from the form in the following format to the console:
+    Exercise3 : I have written JavaScript program for Assignment-3's Bootstrap form that Whenever the user submits the form, output the  
+    data from the form in the following format to the console:
        name: Jane Doe
        email: jane@janedoe.com 
        message: This is a test message.
     and Whenever the user clicks the “reset” button, reset the values of each input field.
     
-    Exercise4 : I have written JavaScript program to output current width and height of window whenever it is resized. To display output I     have used two divs.
+    Exercise4 : I have written JavaScript program to output current width and height of window whenever it is resized. To display output I 
+    have used two divs.
     
-    Exercise5 : I have created button and whenever user clicks on button background color will be changed randomly. For that I have           written Javascript program to generate random hexcode to change background color.
+    Exercise5 : I have created button and whenever user clicks on button background color will be changed randomly. For that I have      
+    written Javascript program to generate random hexcode to change background color.
     
   # Assignment 5 - Node and Express
     Used bootstrap form created in privous assignment for this assignment. I have assigned action="/submit" and method="POST" to form 
