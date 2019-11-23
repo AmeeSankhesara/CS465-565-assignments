@@ -81,6 +81,7 @@ Full Stack Web Development - Fall 2019
        3. my-angular-app/src/app/app.module.ts
        4. my-angular-app/src/app/app.component.ts
     
-    3. Intro to TypeScript - Codelabs:https://angular-presentation.firebaseapp.com/angular/typescript/intro
+    3. Mini Workshop 1 - Build a Simple Pet Fetching Web Application - Vue
+       Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html
     
   
